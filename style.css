@@ -1,0 +1,90 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para las secciones específicas */
+#infgeneral, #filesconductor, #filescar, #reqoperacionales, #novedades {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los títulos h1 */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px; /* Agregamos un margen inferior para separar del contenido siguiente */
+}
+
+/* Estilos para etiquetas de formulario */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Estilos para campos de texto y números */
+input[type="text"],
+input[type="number"],
+input[type="datetime-local"],
+input[type="date"] {
+    width: calc(100% - 22px); /* Full width minus padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para los campos de formulario cuando están enfocados */
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+select{
+    width: calc(100% - 22px); /* Full width minus padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+/* Estilos para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Agregamos un margen inferior para separar del contenido siguiente */
+}
+
+/* Estilos para celdas de tabla */
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+th {
+    background-color: #d0f1ef;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Estilo para una sección específica con id "oculta" */
+#oculta {
+    background-color: white;
+}
