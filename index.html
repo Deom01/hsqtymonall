@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta value="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revisión Preoperacional Vehicular</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="" method="post">
+    <form action="https://script.google.com/macros/s/AKfycbzqNUTpM_zfZU8YQmNny8qQFjbPZf-fXQDsTGVHr1u4_0NPzPVXP1E4RTBgNaG7FngV/exec" method="post">
 
             <section id="infgeneral">
                 <h1>Información General</h1>
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="name" placeholder="Ingrese su Nombre" required >
+                    <label for="value">Nombre:</label>
+                    <input type="text" id="value" name="name" placeholder="Ingrese su Nombre" required >
                     <br>
                     <label for="apellido">Apellido:</label>
                     <input type="text" id="apellido" name="apellido" placeholder="Ingrese su Apellido" required >
@@ -22,7 +22,7 @@
                     <br>
                     <label for="fecha">Fecha:</label>
                     <input type="datetime-local" id="fecha" name="fecha" placeholder="Ingrese la fecha actual" required >
-                    <br>
+                    <br>l
                     <label for="placa">Placa del Vehiculo:</label>
                     <input type="text" id="placa" name="placa" placeholder="Ingrese la placa del Vehiculo" required >
                     <br>
@@ -30,7 +30,7 @@
                     <input type="text" id="km" name="km" placeholder="Ingrese el kilometraje inicial" required >
                     <br>
                     <label for="proyecto"> Proyecto:</label>
-                    <input type="text" id="proyecto" name="km" placeholder="Ingrese el proyecto asignado" required > 
+                    <input type="text" id="proyecto" name="proyecto" placeholder="Ingrese el proyecto asignado" required > 
             </section>
             <section id="filesconductor">
                 <h1>Documentos del Conductor</h1>
@@ -83,7 +83,7 @@
                     <br>
                     <div class="mecanica">
                         <label for="mecanica">Certificación de Mecanica Basica</label>
-                        <select name="mecacanica" id="mecacanica">
+                        <select name="mecanica" id="mecacanica">
                             <option value="si">Si</option>
                             <option value="no">No</option>
                             <option value="noaplica">No Aplica</option>
@@ -93,11 +93,11 @@
                         <input type="text" id="enteemisormec" name="enteemisormec" placeholder="Ingrese la fecha actual" required >
                         <br> 
                         <label for="fechaexpenteemisormec">Fecha Vencimiento:</label>
-                        <input type="date" id="fechaexpenteemisormec" name="fechaexpenteemisoraltmec" placeholder="Ingrese la fecha actual" required >
+                        <input type="date" id="fechaexpenteemisormec" name="fechaexpenteemisormec" placeholder="Ingrese la fecha actual" required >
                         <br>
                     </div>
                     <br>
-                    <div class="alturas">
+                    <div class="alturas">   
                         <label for="alturas">Certificación Trabajo Seguro en Alturas</label>
                         <select name="alturas" id="alturas">
                             <option value="si">Si</option>
@@ -106,7 +106,7 @@
                         </select> 
                         <br>
                         <label for="enteemisoralt">Ente Emisor:</label>
-                        <input type="text" id="enteemisoralt" name="enteemisorextalt" placeholder="Ingrese la fecha actual" required >
+                        <input type="text" id="enteemisoralt" name="enteemisoralt" placeholder="Ingrese la fecha actual" required >
                         <br> 
                         <label for="fechaexpenteemisoralt">Fecha Vencimiento:</label>
                         <input type="date" id="fechaexpenteemisoralt" name="fechaexpenteemisoralt" placeholder="Ingrese la fecha actual" required >
@@ -134,7 +134,7 @@
                     <br>
                     <div class="tecnomecanica">
                         <label for="tecnomecanica">Revisión Técnico Mecánica y de Emisiones Contaminantes</label>
-                        <select name="licenciatran" id="licenciatran" required>
+                        <select name="tecnomecanica" id="tecnomecanica" required>
                             <option value="si">si</option>
                             <option value="no">Si</option>
                             <option value="noaplica">No aplica</option>      
@@ -171,32 +171,32 @@
                                 <th>No Aplica</th>
                             </tr>
                             <tr>
-                                <th><label for="p1">Delanteras Altas / Bajas (funcionamiento y limpieza)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <th><label for="p1" id="p1">Delanteras Altas / Bajas (funcionamiento y limpieza)</label></th>
+                                <td><input type="checkbox" name="p1" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p1" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p1" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p1" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
-                                <th><label for="p1">Direccionales delanteras de parqueo-Giro (funcionamiento y limpieza)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <th><label for="p1" id="p2">Direccionales delanteras de parqueo-Giro (funcionamiento y limpieza)</label></th>
+                                <td><input type="checkbox" name="p2" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p2" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p2" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p2" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
-                                <th><label for="p1">Direccionales traseras de parqueo-Giro (funcionamiento y limpieza)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <th><label for="p1" id="p3">Direccionales traseras de parqueo-Giro (funcionamiento y limpieza)</label></th>
+                                <td><input type="checkbox" name="p3" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p3" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p3" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p3" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
-                                <th><label for="p1">De STOP y de retroceso (funcionamiento y limpieza)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <th><label for="p1" id="p4">De STOP y de retroceso (funcionamiento y limpieza)</label></th>
+                                <td><input type="checkbox" name="p4" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p4" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p4" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p4" value="noaplica" id="bueno"></td>
                             </tr>
                         </table>
                     </div>
@@ -211,89 +211,89 @@
                                 <th>No Aplica</th>
                             </tr>
                             <tr>
-                                <th><label for="p1">Espejos Retrevisores Laterales</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <th><label for="p1" id="p5">Espejos Retrevisores Laterales</label></th>
+                                <td><input type="checkbox" name="p5" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p5" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p5" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p5" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
-                                <th><label for="p1">Alarma de retroceso.</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <th><label for="p1" id="p6">Alarma de retroceso.</label></th>
+                                <td><input type="checkbox" name="p6" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p6" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p6" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p6" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Funcionamiento Pito /Corneta</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p7" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p7" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p7" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p7" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Funcionamiento y estado Cinturones de Seguridad</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p8" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p8" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p8" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p8" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado Puertas cabina</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p9" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p9" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p9" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p9" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado Techo de cabina</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p10" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p10" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p10" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p10" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado Vidrio frontal y laterales</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p11" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p11" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p11" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p11" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Funcionamiento Limpia brisas.</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p12" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p12" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p12" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p12" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado de los asientos</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p13" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p13" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p13" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p13" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Indicadores del tablero (Velocímetro, Tacómetro,
                                     Aceite, etc.)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p14" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p14" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p14" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p14" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1"> Escaleras y pasamanos</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p15" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p15" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p15" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p15" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Sistema de seguimiento satelital/GPS/GPRS</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p16" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p16" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p16" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p16" value="noaplica" id="bueno"></td>
                             </tr>
                         </table>
                     </div>
@@ -309,31 +309,31 @@
                             </tr>
                             <tr>
                                 <th><label for="p1">Presión de los neumáticos</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p17" value="bueno" id="p1"></td>
+                                <td><input type="checkbox" name="p17" value="regular" id="p1"></td>
+                                <td><input type="checkbox" name="p17" value="malo" id="p1"></td>
+                                <td><input type="checkbox" name="p17" value="noaplica" id="p1"></td>
                             </tr>
                             <tr>
-                                <th><label for="p1">Estado Llantas delanteras</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <th><label for="p2">Estado Llantas delanteras</label></th>
+                                <td><input type="checkbox" name="p18" value="bueno" id="p2"></td>
+                                <td><input type="checkbox" name="p18" value="regular" id="p2"></td>
+                                <td><input type="checkbox" name="p18" value="malo" id="p2"></td>
+                                <td><input type="checkbox" name="p18" value="noaplica" id="p2"></td>
                             </tr>
                             <tr>
-                                <th><label for="p1">Estado Llantas traseras</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <th><label for="p3">Estado Llantas traseras</label></th>
+                                <td><input type="checkbox" name="p19" value="bueno" id="p3"></td>
+                                <td><input type="checkbox" name="p19" value="regular" id="p3"></td>
+                                <td><input type="checkbox" name="p19" value="malo" id="p3"></td>
+                                <td><input type="checkbox" name="p19" value="noaplica" id="p3"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado Llanta(s) de repuesto </label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p20" value="bueno" id="p4"></td>
+                                <td><input type="checkbox" name="p20" value="regular" id="p4"></td>
+                                <td><input type="checkbox" name="p20" value="malo" id="p4"></td>
+                                <td><input type="checkbox" name="p20" value="noaplica" id="p4"></td>
                             </tr>
                         </table>
                     </div>
@@ -349,115 +349,115 @@
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado del sistema hidráulico (detectar fugas en motor, hidraulicos, mangueras)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p21" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p21" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p21" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p21" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado del sistema de aire (fugas, frenos,compresión) mangueras</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p22" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p22" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p22" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p22" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado de Tanques de aire y compartimiento de batería</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p23" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p23" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p23" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p23" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado Filtros (aire,Combustible)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p24" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p24" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p24" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p24" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1"> Estado Tapas de liquidos (hidraulico, aceite motor, refrigerante, limpiavidrios)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p25" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p25" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p25" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p25" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Verificación del manómetro de presión de aire (mecanismo de frenado)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p26" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p26" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p26" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p26" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Nivel aceite motor</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p27" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p27" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p27" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p27" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Nivel agua radiador.</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p28" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p28" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p28" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p28" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Nivel combustible</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p29" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p29" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p29" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p29" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Compartimiento del motor</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p30" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p30" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p30" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p30" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">*Freno de servicio</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p31" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p31" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p31" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p31" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">* Freno de emergencia</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p32" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p32" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p32" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p32" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1"> * Sistema de dirección</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p33" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p33" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p33" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p33" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Sistema de suspensión / amortiguación </label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p34" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p34" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p34" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p34" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Ejes y sistema de transmisión</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p35" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p35" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p35" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p35" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">  Funcionamiento de la caja de velocidades</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p36" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p36" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p36" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p36" value="noaplica" id="bueno"></td>
                             </tr>
                         </table>
                     </div>
@@ -473,87 +473,87 @@
                             </tr>
                             <tr>
                                 <th><label for="p1">Baterías y cables (Niveles de electrolitos, Ajuste de bornes y sulfatación)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p37" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p37" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p37" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p37" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado plancha - carroceria (verificar estado carroceria o carpa cuando aplique)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p38" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p38" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p38" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p38" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1"> Estado del Volco (verificar tapas, pines de ajuste, señalización)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p39" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p39" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p39" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p39" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estructura del chasis y cajuelas</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p40" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p40" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p40" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p40" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Grapas y anclaje del chasis</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p41" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p41" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p41" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p41" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Señalización preventiva: Cintas reflectivas</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p42" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p42" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p42" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p42" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado del piso de plancha (turbos, camiones)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p43" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p43" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p43" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p43" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado tanque de combustible (sin fisuras, golpes, anclado)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p44" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p44" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p44" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p44" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Funcionamiento gatos de elevación volco (verificar ausencia de fugas, botellas y embolos en buen estado)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p45" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p45" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p45" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p45" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Malacates (engranaje y seguro), cinchas, gancho de la cincha</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p46" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p46" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p46" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p46" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Defensa Delantera Y Defensa trasera</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p47" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p47" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p47" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p47" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Cajuelas de herramientas o baúl del tráiler </label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p48" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p48" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p48" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p48" value="noaplica" id="bueno"></td>
                         </table>
                     </div>
                     <div class="estadoestructural">                
@@ -568,52 +568,52 @@
                             </tr>
                             <tr>
                                 <th><label for="p1"> Estado de Compuertas y tapas (verificar aseguramiento)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p49" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p49" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p49" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p49" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado de empaques  (compuerta trasera y  tapas.)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p50" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p50" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p50" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p50" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1"> Tornillos y sujeciones de compuestas volcos</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p51" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p51" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p51" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p51" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado de Acoples y 7 vias zorro y trailer</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p52" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p52" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p52" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p52" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado del sistema de autocarpado (revisar funcionamiento)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p53" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p53" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p53" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p53" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado de la carpa</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p54" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p54" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p54" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p54" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Sistema de Protección contra caidas (Verificar linea de vida y sujeciones) (cuando esté instalado)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p55" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p55" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p55" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p55" value="noaplica" id="bueno"></td>
                             </tr>
                         </table>
                     </div>
@@ -629,77 +629,80 @@
                             </tr>
                             <tr>
                                 <th><label for="p1">Botiquin</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p56" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p56" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p56" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p56" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">kit ambiental </label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p57" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p57" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p57" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p57" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Linterna</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p58" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p58" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p58" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p58" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Extintores  (Mínimo 20 Lb.)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p59" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p59" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p59" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p59" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Tacos de Seguridad para bloquear las llantas</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p60" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p60" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p60" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p60" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Equipos de Protección Contra Caidas (Arnes y Eslinga cuando aplique)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p61" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p61" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p61" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p61" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Herramienta básica (Alicate, Destornilladores, llaves fijas, espansiva)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p62" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p62" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p62" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p62" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1"> Conos Reflectivos (Minimo 4)</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p63" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p63" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p63" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p63" value="noaplica" id="bueno"></td>
                             </tr>
                             <tr>
                                 <th><label for="p1">Estado y cantidad de avisos de carga ancha y larga</label></th>
-                                <td><input type="checkbox" name="bueno" id="bueno"></td>
-                                <td><input type="checkbox" name="regular" id="bueno"></td>
-                                <td><input type="checkbox" name="malo" id="bueno"></td>
-                                <td><input type="checkbox" name="noaplica" id="bueno"></td>
+                                <td><input type="checkbox" name="p64" value="bueno" id="bueno"></td>
+                                <td><input type="checkbox" name="p64" value="regular" id="bueno"></td>
+                                <td><input type="checkbox" name="p64" value="malo" id="bueno"></td>
+                                <td><input type="checkbox" name="p64" value="noaplica" id="bueno"></td>
                             </tr>
                         </table>
                     </div>
             </section>
             <section id="novedades">
                 <label for="obser"><h4>Novedades</h4></label>
-                <input type="text" placeholder="Ingrese una obsercacion de ser requerido">
+                <input type="text" name="obser" placeholder="Ingrese una obsercacion de ser requerido">
                 <br>
                 <label for="evidencia">Evidencia de Novedades</label>
-                <input type="file">
+                <input name="evidencia" type="file">
             </section>
+            <div class="button">
+            <button type="submit">Enviar</button>
+            </div>
     </form>
     
     

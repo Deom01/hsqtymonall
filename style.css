@@ -1,44 +1,64 @@
+/* Variables de CSS */
+:root {
+    --color-fondo: #f9f9f9;
+    --color-blanco: #fff;
+    --color-borde: #ddd;
+    --color-sombra: rgba(0, 0, 0, 0.1);
+    --color-titulo: #333;
+    --color-texto: #555;
+    --color-borde-enfoque: #66afe9;
+    --color-sombra-enfoque: rgba(102, 175, 233, 0.6);
+    --color-header-tabla: #d0f1ef;
+    --padding: 10px;
+    --margen: 20px;
+    --ancho-maximo: 600px;
+    --color-boton: #007bff;
+    --color-boton-hover: #0056b3;
+    --color-boton-texto: #fff;
+}
+
 /* Estilos generales para el cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: var(--color-fondo);
     margin: 0;
     padding: 0;
 }
 
 /* Estilos para las secciones específicas */
 #infgeneral, #filesconductor, #filescar, #reqoperacionales, #novedades {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: var(--color-blanco);
+    border: 1px solid var(--color-borde);
     border-radius: 5px;
     padding: 20px;
-    max-width: 600px;
-    margin: 20px auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: var(--ancho-maximo);
+    margin: var(--margen) auto;
+    box-shadow: 0 2px 4px var(--color-sombra);
 }
 
 /* Estilos para los títulos h1 */
 h1 {
     text-align: center;
-    color: #333;
-    margin-bottom: 20px; /* Agregamos un margen inferior para separar del contenido siguiente */
+    color: var(--color-titulo);
+    margin-bottom: var(--margen);
 }
 
 /* Estilos para etiquetas de formulario */
 label {
     display: block;
     margin-bottom: 5px;
-    color: #555;
+    color: var(--color-texto);
 }
 
-/* Estilos para campos de texto y números */
+/* Estilos para campos de texto, números y select */
 input[type="text"],
 input[type="number"],
 input[type="datetime-local"],
-input[type="date"] {
-    width: calc(100% - 22px); /* Full width minus padding */
-    padding: 10px;
-    margin-bottom: 20px;
+input[type="date"],
+select {
+    width: calc(100% - 2 * var(--padding));
+    padding: var(--padding);
+    margin-bottom: var(--margen);
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -47,35 +67,28 @@ input[type="date"] {
 input[type="text"]:focus,
 input[type="number"]:focus,
 input[type="datetime-local"]:focus,
-input[type="date"]:focus {
-    border-color: #66afe9;
+input[type="date"]:focus,
+select:focus {
+    border-color: var(--color-borde-enfoque);
     outline: none;
-    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
-}
-select{
-    width: calc(100% - 22px); /* Full width minus padding */
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-
+    box-shadow: 0 0 8px var(--color-sombra-enfoque);
 }
 
 /* Estilos para las tablas */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px; /* Agregamos un margen inferior para separar del contenido siguiente */
+    margin-bottom: var(--margen);
 }
 
 /* Estilos para celdas de tabla */
 th, td {
     border: 1px solid #000;
-    padding: 10px;
+    padding: var(--padding);
 }
 
 th {
-    background-color: #d0f1ef;
+    background-color: var(--color-header-tabla);
     text-align: center;
 }
 
@@ -86,5 +99,27 @@ td {
 
 /* Estilo para una sección específica con id "oculta" */
 #oculta {
-    background-color: white;
+    background-color: var(--color-blanco);
+}
+
+/* Estilo para el div.button */
+.button {
+    text-align: center;
+    margin-top: var(--margen);
+}
+
+/* Estilo para el botón dentro del div.button */
+.button button {
+    background-color: var(--color-boton);
+    color: var(--color-boton-texto);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+    background-color: var(--color-boton-hover);
 }
